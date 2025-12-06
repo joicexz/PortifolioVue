@@ -1,39 +1,62 @@
-# portifolio
+# 🌟 Portfólio — Joice Soares de Almeida
 
-This template should help get you started developing with Vue 3 in Vite.
+Meu portfólio pessoal desenvolvido em **Vue.js**, criado para apresentar minhas habilidades, projetos e formas de contato em um formato simples, organizado e visualmente moderno.
 
-## Recommended IDE Setup
+---
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 Tecnologias utilizadas
 
-## Recommended Browser Setup
+- **Vue.js 3 + Vite**
+- **CSS puro**
+- **Componentização**
+- **Font Awesome (ícones)**
+- **Google Fonts**
+- **Animações (fade-in, hover, blur, sombras)**
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## 📁 Estrutura do projeto
 
-## Customize configuration
+src/
+├─ assets/
+│ └─ perfil.jpeg
+│
+├─ components/
+│ ├─ Navbar.vue
+│ ├─ Sobre.vue
+│ ├─ Conhecimentos.vue
+│ ├─ Projetos.vue
+│ └─ Contato.vue
+│
+├─ App.vue
+└─ main.js
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+------------------------------------------------------------------------
 
-## Project Setup
+## Rode o projeto localmente
 
-```sh
+### 1. Clone o repositório
+
+``` bash
+git clone https://github.com/joicexz/PortifolioVue.git
+```
+
+### 2. Acesse o projeto
+
+``` bash
+cd portfolio
+```
+
+### 3. Instale as dependências
+
+``` bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 4. Rode o servidor
 
-```sh
+``` bash
 npm run dev
 ```
+Abra o link:
 
-### Compile and Minify for Production
+    http://localhost:5173
 
-```sh
-npm run build
-```
-# PortifolioVue
